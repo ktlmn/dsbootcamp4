@@ -88,5 +88,5 @@ def target_summary_with_cat(dataframe, target, categorical_col):
 def target_summary_with_num(dataframe, target, numerical_col):
     print(dataframe.groupby(target).agg({numerical_col: "mean"}), end="\n\n\n")
 
-def test_function (i)
+def test_function (i):
     return i * i
